@@ -27,6 +27,35 @@ body {
     flex-direction: column;
     align-items: flex-start;
 }
+.mid-container{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+.header{
+    font-size: 32px;
+    font-weight:800px;
+}
+.mid-container2{
+    display: flex;
+    gap: 70px;
+    margin-top:50px;
+}
+.info{
+    width: 130px;
+    height:auto;
+}
+.placeholder{
+    border-radius:25px;
+    border-style: solid;
+    padding: 60px;
+    border-color:#3882F6;
+}
+.subtext{
+    text-align: center;
+    padding-top:5px;
+}
 img {
     width: 400px;
     height:auto;
